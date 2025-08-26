@@ -1,0 +1,141 @@
+body {
+     font-family: "Plus Jakarta Sans", sans-serif !important;
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Navbar */
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass {
+   font-size: 2rem;
+    color: #fe424d;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+/* FOOTER */
+.f-info {
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.f-info-socials, .f-info-brand, .f-info-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+   
+}
+
+/* Card */
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem !important;
+}
+
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+
+}
+
+.cartd-body {
+    padding: 0 !important;
+}
+
+.card-text p{
+    color: #222222 !important;
+    font-weight: 400;
+}
+
+.card-links {
+    text-decoration: none !important;
+}
+
+/* Card effect */
+.card-img-overlay {
+    opacity: 0;
+}
+ 
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* New page */
+.add-btn {
+    background-color:  #fe424d !important;
+    border: none !important;
+}
+
+/* Edit page */
+.edit-btn {
+     background-color:  #fe424d !important;
+    border: none !important;
+}
+
+/* Show page  */
+.show-img {
+    height: 32vh;
+}
+
+.btns {
+    display: flex;
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.show-btn {
+    background-color: cornflowerblue !important;
+    border: none !important;
+    height: 2.5rem  !important;
+}
+
+.delete-btn {
+    background-color: crimson !important;
+    border: none !important ;
+}
+
+/* Map */
+#map { 
+    height: 400px;
+    width: 100vh;
+ }
